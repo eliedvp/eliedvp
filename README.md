@@ -21,13 +21,11 @@ Je conçois des applications web de bout en bout : interfaces React, API Node.js
 
 ### Projets en ligne (code privé)
 
-| Projet | Description | Stack |
-| --- | --- | --- |
-| **[Oblack Store](https://oblack.store/)** | Boutique e-commerce **en production** : catalogue, recherche et filtres, panier, comptes clients, commandes et paiement à la livraison, back-office d'administration. Intégration Mobile Money (Wave, Orange Money, MTN, Moov via l'agrégateur Jèko) développée, désactivée en production en attendant la validation du prestataire. | React (Vite) · Tailwind CSS · Node.js · Express · MongoDB · Firebase |
-| **[IMPACT](https://impact-ong.vercel.app/)** | Site vitrine d'une **ONG fictive**, réalisé comme projet de portfolio : 8 pages, formulaires validés (Zod) et envoyés par e-mail, dons simulés via Wave Checkout avec webhook signé HMAC, en-têtes de sécurité, accessibilité AA. | Next.js · TypeScript · Prisma · PostgreSQL (Supabase) · Playwright |
+ 
+| **[Oblack Store](https://oblack.store/)** | Boutique e-commerce **en production**  
+| **[IMPACT](https://impact-ong.vercel.app/)** | Site vitrine d'une **ONG fictive** 
 
-Le code de ces deux projets est privé ; je peux le présenter en entretien (architecture, tests, choix techniques).
-
+ 
 ## Stack
 
 | | Utilisées dans mes projets | Bases / en apprentissage |
@@ -43,7 +41,4 @@ Le code de ces deux projets est privé ; je peux le présenter en entretien (arc
 - Du code lisible et testé : tests automatisés et intégration continue sur les projets principaux.
 - La sécurité dès le départ : secrets hors du code, validation des entrées, contrôle des droits.
 - J'utilise des assistants IA (Claude Code) pour accélérer l'écriture, la revue et les tests ; je relis, exécute et suis capable d'expliquer chaque modification.
-
-## Dépôts d'apprentissage
-
-Les autres dépôts publics sont des exercices réalisés pendant ma formation chez **GoMyCode** (HTML/CSS, JavaScript, React, Redux, TypeScript, Node.js, MongoDB, Kotlin). Chacun dispose d'un README qui décrit les notions travaillées. Les dépôts archivés sont des prototypes abandonnés, conservés pour l'historique.
+ 
