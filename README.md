@@ -1,8 +1,8 @@
 # Tano Elie Vianney Adiko
 
-**Développeur Full Stack** · Abidjan, Côte d'Ivoire
+**Développeur Full Stack junior** · React · Node.js · TypeScript · MongoDB · Abidjan, Côte d'Ivoire
 
-Je transforme une idée en application web fiable, de la maquette à la mise en ligne : interfaces React / Next.js, API Node.js / Express, bases MongoDB et SQL, tests et intégration continue.
+Je conçois des applications web de bout en bout : interfaces React, API Node.js / Express, bases de données, tests automatisés et intégration continue. Formé chez **GoMyCode**, j'ai une boutique en ligne en production et une bibliothèque publiée sur npm.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-eliedvp.vercel.app-111111?style=flat-square&logo=vercel&logoColor=white)](https://eliedvp.vercel.app)
 [![E-mail](https://img.shields.io/badge/E--mail-elieadiko5%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:elieadiko5@gmail.com)
@@ -11,28 +11,39 @@ Je transforme une idée en application web fiable, de la maquette à la mise en 
 
 ## Projets à la une
 
-| Projet | Description | Stack | Liens |
-| --- | --- | --- | --- |
-| **audit-device-tracker** | Bibliothèque Node.js qui reconnaît l'appareil utilisé à chaque connexion et calcule un score de risque (identifiants partagés, nouveaux appareils, déplacements impossibles). Cookie signé HMAC, stockage mémoire ou SQLite, anonymisation des IP. | TypeScript · Node.js · Express · SQLite · Vitest · GitHub Actions | [Code](https://github.com/eliedvp/audit-device-tracker) · [npm](https://www.npmjs.com/package/audit-device-tracker) |
-| **Oblack Store** | Boutique e-commerce en production : catalogue, recherche et filtres, panier, comptes clients, paiement Mobile Money (Wave, Orange Money, MTN, Moov) ou à la livraison. | React · Node.js · Express · MongoDB | [Site](https://oblack.store/) |
-| **IMPACT** | Site d'une ONG ivoirienne : actions (éducation, eau potable, solidarité), bénévolat et appel aux dons. | Next.js | [Site](https://impact-ong.vercel.app/) |
-| **forever-living** | Application e-commerce MERN : authentification JWT, rôles admin, catalogue, panier et commandes. | React · Node.js · Express · MongoDB | [Code](https://github.com/eliedvp/forever-living) |
+### Code public, vérifiable
+
+| Projet | Ce qu'il démontre | Preuves |
+| --- | --- | --- |
+| **[audit-device-tracker](https://github.com/eliedvp/audit-device-tracker)** | Bibliothèque Node.js qui reconnaît l'appareil utilisé à chaque connexion et calcule un score de risque (identifiants partagés, nouveaux appareils, déplacements impossibles). Cookie signé HMAC, stockage mémoire ou SQLite, anonymisation des IP, middleware Express. | [![CI](https://github.com/eliedvp/audit-device-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/eliedvp/audit-device-tracker/actions/workflows/ci.yml) [![npm](https://img.shields.io/npm/v/audit-device-tracker?style=flat-square)](https://www.npmjs.com/package/audit-device-tracker) · TypeScript, 141 tests Vitest, Node 22 et 24 |
+| **[forever-living](https://github.com/eliedvp/forever-living)** | E-commerce MERN : authentification JWT, rôles admin, catalogue, panier, commandes avec prix recalculés côté serveur et contrôle d'accès propriétaire / admin. | [![CI](https://github.com/eliedvp/forever-living/actions/workflows/ci.yml/badge.svg)](https://github.com/eliedvp/forever-living/actions/workflows/ci.yml) · tests Jest + Supertest |
+| **[rest-api](https://github.com/eliedvp/rest-api)** · **[api-demo-burnt](https://github.com/eliedvp/api-demo-burnt)** · **[hebergement-mern](https://github.com/eliedvp/hebergement-mern)** | API REST Express / Mongoose (CRUD, validation, codes HTTP) et préparation d'une application MERN au déploiement. | Tests Jest + Supertest et CI GitHub Actions sur chaque dépôt |
+
+### Projets en ligne (code privé)
+
+| Projet | Description | Stack |
+| --- | --- | --- |
+| **[Oblack Store](https://oblack.store/)** | Boutique e-commerce **en production** : catalogue, recherche et filtres, panier, comptes clients, commandes et paiement à la livraison, back-office d'administration. Intégration Mobile Money (Wave, Orange Money, MTN, Moov via l'agrégateur Jèko) développée, désactivée en production en attendant la validation du prestataire. | React (Vite) · Tailwind CSS · Node.js · Express · MongoDB · Firebase |
+| **[IMPACT](https://impact-ong.vercel.app/)** | Site vitrine d'une **ONG fictive**, réalisé comme projet de portfolio : 8 pages, formulaires validés (Zod) et envoyés par e-mail, dons simulés via Wave Checkout avec webhook signé HMAC, en-têtes de sécurité, accessibilité AA. | Next.js · TypeScript · Prisma · PostgreSQL (Supabase) · Playwright |
+
+Le code de ces deux projets est privé ; je peux le présenter en entretien (architecture, tests, choix techniques).
 
 ## Stack
 
-| Couche | Technologies |
-| --- | --- |
-| Interface | HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Redux, Tailwind CSS, Bootstrap |
-| API & logique | Node.js, Express.js, NestJS, PHP, Laravel |
-| Données | MongoDB / Mongoose, MySQL, PostgreSQL, SQLite, Firebase, Supabase |
-| Outils | Git, GitHub Actions, Vitest, Jest, Docker, Postman, npm |
+| | Utilisées dans mes projets | Bases / en apprentissage |
+| --- | --- | --- |
+| **Interface** | HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Redux Toolkit, Tailwind CSS, Bootstrap | Kotlin / Jetpack Compose (exercices) |
+| **API & logique** | Node.js, Express.js, Zod, express-validator, JWT | NestJS, PHP / Laravel |
+| **Données** | MongoDB / Mongoose, PostgreSQL (Prisma, Supabase), SQLite, Firebase | MySQL |
+| **Qualité & outils** | Git, GitHub Actions, Jest, Vitest, Supertest, Playwright, Postman, npm | Docker |
 
 ## Ma façon de travailler
 
-- Clarifier le besoin avant d'écrire du code, puis avancer par petites étapes vérifiables.
+- Clarifier le besoin avant d'écrire du code, puis avancer par petites étapes vérifiables (branches, Pull Requests, commits conventionnels).
 - Du code lisible et testé : tests automatisés et intégration continue sur les projets principaux.
 - La sécurité dès le départ : secrets hors du code, validation des entrées, contrôle des droits.
+- J'utilise des assistants IA (Claude Code) pour accélérer l'écriture, la revue et les tests ; je relis, exécute et suis capable d'expliquer chaque modification.
 
 ## Dépôts d'apprentissage
 
-Les autres dépôts publics sont des exercices réalisés pendant ma formation chez **GoMyCode** (HTML/CSS, JavaScript, React, Redux, TypeScript, Node.js, MongoDB). Chacun dispose d'un README qui décrit les notions travaillées.
+Les autres dépôts publics sont des exercices réalisés pendant ma formation chez **GoMyCode** (HTML/CSS, JavaScript, React, Redux, TypeScript, Node.js, MongoDB, Kotlin). Chacun dispose d'un README qui décrit les notions travaillées. Les dépôts archivés sont des prototypes abandonnés, conservés pour l'historique.
