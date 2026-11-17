@@ -14,7 +14,7 @@ Je conçois des applications web de bout en bout : interfaces React, API Node.js
 
  
 | **[Oblack Store](https://oblack.store/)** | Boutique e-commerce **en production**  
-| **[IMPACT](https://impact-ong.vercel.app/)** | Site vitrine d'une **ONG fictive** 
+| **[IMPACT](https://impact-ong.vercel.app/)** | Site vitrine d'une **ONG** 
 
  
 ## Stack
@@ -22,7 +22,7 @@ Je conçois des applications web de bout en bout : interfaces React, API Node.js
 | | Utilisées dans mes projets | Bases / en apprentissage |
 | --- | --- | --- |
 | **Interface** | HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Redux Toolkit, Tailwind CSS, Bootstrap | Kotlin / Jetpack Compose (exercices) |
-| **API & logique** | Node.js, Express.js, Zod, express-validator, JWT | NestJS, PHP / Laravel |
+| **API & logique** | Node.js, Express.js, | NestJS, PHP / Laravel |
 | **Données** | MongoDB / Mongoose, PostgreSQL (Prisma, Supabase), SQLite, Firebase | MySQL |
-| **Qualité & outils** | Git, GitHub Actions, Jest, Vitest, Supertest, Playwright, Postman, npm | Docker |
+| **outils** | Git, GitHub Actions, Vitest, Postman, npm | Docker |
  
