@@ -14,7 +14,7 @@ Je conçois des applications web de bout en bout : interfaces React, API Node.js
 
  
 | **[Oblack Store](https://oblack.store/)** | Boutique e-commerce **en production**  
-| **[IMPACT](https://impact-ong.vercel.app/)** | Site vitrine d'une **ONG** 
+| **[IMPACT](https://impact-ong.vercel.app/)** | Site d'une **ONG** 
 
  
 ## Stack
