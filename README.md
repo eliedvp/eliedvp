@@ -1,42 +1,38 @@
-<h2 align="left">Hi 👋! My name is Elie</h2>
+# Tano Elie Vianney Adiko
 
-###
+**Développeur Full Stack** · Abidjan, Côte d'Ivoire
 
-<img align="right" height="150" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExajRwYWlkbWNwdWdpY3FmbDB0MGh5MWJ6cWZ6dWpyeXY5bnNzbXc2NCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/llarwdtFqG63IlqUR1/giphy.gif"  />
+Je transforme une idée en application web fiable, de la maquette à la mise en ligne : interfaces React / Next.js, API Node.js / Express, bases MongoDB et SQL, tests et intégration continue.
 
-###
+[![Portfolio](https://img.shields.io/badge/Portfolio-eliedvp.vercel.app-111111?style=flat-square&logo=vercel&logoColor=white)](https://eliedvp.vercel.app)
+[![E-mail](https://img.shields.io/badge/E--mail-elieadiko5%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:elieadiko5@gmail.com)
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo" />
-<img width="12" />
+---
 
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="30" alt="laravel logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" height="30" alt="wordpress logo"  />
-</div>
+## Projets à la une
 
-###
+| Projet | Description | Stack | Liens |
+| --- | --- | --- | --- |
+| **audit-device-tracker** | Bibliothèque Node.js qui reconnaît l'appareil utilisé à chaque connexion et calcule un score de risque (identifiants partagés, nouveaux appareils, déplacements impossibles). Cookie signé HMAC, stockage mémoire ou SQLite, anonymisation des IP. | TypeScript · Node.js · Express · SQLite · Vitest · GitHub Actions | [Code](https://github.com/eliedvp/audit-device-tracker) · [npm](https://www.npmjs.com/package/audit-device-tracker) |
+| **Oblack Store** | Boutique e-commerce en production : catalogue, recherche et filtres, panier, comptes clients, paiement Mobile Money (Wave, Orange Money, MTN, Moov) ou à la livraison. | React · Node.js · Express · MongoDB | [Site](https://oblack.store/) |
+| **IMPACT** | Site d'une ONG ivoirienne : actions (éducation, eau potable, solidarité), bénévolat et appel aux dons. | Next.js | [Site](https://impact-ong.vercel.app/) |
+| **forever-living** | Application e-commerce MERN : authentification JWT, rôles admin, catalogue, panier et commandes. | React · Node.js · Express · MongoDB | [Code](https://github.com/eliedvp/forever-living) |
 
-<div align="left">
-  <a href="mailto:elieadiko5@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-  <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-</div>
+## Stack
 
-###
+| Couche | Technologies |
+| --- | --- |
+| Interface | HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Redux, Tailwind CSS, Bootstrap |
+| API & logique | Node.js, Express.js, NestJS, PHP, Laravel |
+| Données | MongoDB / Mongoose, MySQL, PostgreSQL, SQLite, Firebase, Supabase |
+| Outils | Git, GitHub Actions, Vitest, Jest, Docker, Postman, npm |
+
+## Ma façon de travailler
+
+- Clarifier le besoin avant d'écrire du code, puis avancer par petites étapes vérifiables.
+- Du code lisible et testé : tests automatisés et intégration continue sur les projets principaux.
+- La sécurité dès le départ : secrets hors du code, validation des entrées, contrôle des droits.
+
+## Dépôts d'apprentissage
+
+Les autres dépôts publics sont des exercices réalisés pendant ma formation chez **GoMyCode** (HTML/CSS, JavaScript, React, Redux, TypeScript, Node.js, MongoDB). Chacun dispose d'un README qui décrit les notions travaillées.
