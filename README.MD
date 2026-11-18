@@ -17,12 +17,4 @@ Je conçois des applications web de bout en bout : interfaces React, API Node.js
 | **[IMPACT](https://impact-ong.vercel.app/)** | Site d'une **ONG** 
 
  
-## Stack
-
-| | Utilisées dans mes projets | Bases / en apprentissage |
-| --- | --- | --- |
-| **Interface** | HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Redux Toolkit, Tailwind CSS, Bootstrap | Kotlin / Jetpack Compose (exercices) |
-| **API & logique** | Node.js, Express.js, | NestJS, PHP / Laravel |
-| **Données** | MongoDB / Mongoose, PostgreSQL (Prisma, Supabase), SQLite, Firebase | MySQL |
-| **outils** | Git, GitHub Actions, Vitest, Postman, npm | Docker |
  
